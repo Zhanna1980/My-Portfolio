@@ -1,0 +1,22 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.navbar {
+    border-radius: 0px;
+}
+
+#about{
+    height: 100vh;
+    background-color: green;
+}
+#portfolio{
+    height: 100vh;
+    background-color: blue;
+}
+
+#contact{
+    height: 100vh;
+    background-color: orange;
+}
