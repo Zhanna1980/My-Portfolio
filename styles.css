@@ -2,21 +2,41 @@ html, body {
     width: 100%;
     height: 100%;
     margin: 0;
+    /*margin: 0px 15px 0px 15px;*/
+    /*font-family: Menlo, Monaco, Consolas, "Courier New", monospace;*/
 }
 .navbar {
     border-radius: 0px;
 }
 
 #about{
-    height: 100vh;
     background-color: green;
+    padding: 10px;
 }
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.bordered {
+    border: 10px orange double;
+}
+
+#about img{
+    vertical-align: bottom;
+}
+
+.text-wrapper {
+    height: 100%;
+    background-color: turquoise;
+}
+
 #portfolio{
-    height: 100vh;
     background-color: blue;
 }
 
 #contact{
-    height: 100vh;
     background-color: orange;
 }
