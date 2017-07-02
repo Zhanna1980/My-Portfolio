@@ -40,3 +40,38 @@ html, body {
 #contact{
     background-color: orange;
 }
+
+.social {
+    margin-left: 10px; 
+}
+
+.title {
+    position: relative;
+    background-color: white;
+    width: 85%;
+    height: 150px;
+}
+
+.first {
+   top: 20px;
+   left: 5%;
+}
+
+.second { 
+   top: 30%;
+   left: 15%;
+}
+
+.third {
+   bottom: 20px;
+   left: 5%;
+}
+
+.text-wrapper {
+    height: 100%;
+}
+
+.title>h1 {
+    position: relative;
+    top: 15%;
+}
