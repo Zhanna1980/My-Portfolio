@@ -3,42 +3,69 @@ html, body {
     margin-right: 0px;
     padding-left: 0px;
     padding-right: 0px;
-    /*font-family: Menlo, Monaco, Consolas, "Courier New", monospace;*/
+    background: turquoise; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#00ccff, turquoise); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#00ccff, turquoise); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#00ccff, turquoise); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#00ccff, turquoise); /* Standard syntax */
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .navbar {
     border-radius: 0px;
+    border-width: 0px 0px 2px 0px;
+    border-style:double;
+    border-color: teal;
+}
+
+.navbar-inverse .navbar-nav>li>a, .navbar-header>a.navbar-brand {
+    color: #002933;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: dodgerblue;
+}
+
+
+.navbar-inverse {
+    background-color:  dodgerblue;
+
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: grey;
+    background-color: dodgerblue;
 }
 
 #about{
-    background-color: green;
     padding: 10px;
 }
 
-.vcenter {
-    display: inline-block;
-    vertical-align: middle;
-    float: none;
+h1 {
+    color: #2b43bc;
 }
 
 .bordered {
-    border: 10px orange double;
+    border: 10px dodgerblue double;
+}
+
+#about .thumbnail {
+    border-width: 0px;
+    background-color: transparent;
 }
 
 #about img{
-    vertical-align: bottom;
+    background-color: white;
 }
 
 .text-wrapper {
     height: 100%;
-    background-color: turquoise;
 }
 
-#portfolio{
-    background-color: blue;
-}
-
-#contact{
-    background-color: orange;
+address {
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    margin: 0px 10px 20px 10px;
 }
 
 .social {
@@ -78,7 +105,6 @@ html, body {
 }
 
 .row {
-    background-color: fuchsia;
     margin-right: 0px;
     margin-left: 0px;
     padding: 15px;
@@ -86,7 +112,7 @@ html, body {
 
  @media (max-width: 768px) {
     h1 {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .title {
